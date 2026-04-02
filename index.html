@@ -6,7 +6,6 @@
     <title>Aula 2</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page Title</title>
     <meta name="description" content="Page description">
     <meta name="keywords" content="keyword1, keyword2">
     <meta property="og:title" content="Page Title">
@@ -28,12 +27,25 @@
             border: solid 3px green;
             background-color: #50c9ee;
         }
+        .card{
+            border: dashed 2px black;
+            background-color: yellow;
+        }
+        #botao-cancelar{
+            width: 300px;
+            background-color: red;
+        }
     </style>
 </head>
 <!--
 css inline é dentro do elemento "tag"
 css interno/critico é dentro do cabeçalho html
 css externo fora do documento
+
+Selectores
+proprios nome elementos
+classes prefixo do nome é ponto ex   .card (vários locais)
+id      prefixo do nome é hash  ex   #botao-form (obs. id somente UM dentro do html)
 -->
 <body>
     <header>
@@ -46,7 +58,7 @@ css externo fora do documento
         <section>
 
         </section>
-        <section>
+        <section class="card" id="botao-cancelar" style="width: 40%;">
 
         </section>
         <section style="height: 400px; background-color: #06652e;">
