@@ -10,24 +10,38 @@
     border: #06652e;
     justify-content:space-around;
 }
-ul{
+main{
 display: flex;
 align-items: center;
 border: rgb(30, 12, 58) solid 1px;
 justify-content: space-around;
-
-
-
 } 
 ul{
-
-    display: flex;
+    display:flex;
     list-style:nome;
-    gap:spx;
+    gap: 5 spx;
+}
+a{
+    front-size: 18px;
+    text-decoration:none;
+}
+.botao-cta{
+    padding: 5px;
+    margin:5px;
+    border: solid 1px blue;
+    border-radius: 10px 30px 10px 30px;
+    box shadow: 4px 3px 5px 0px red:
+   
+
 
 
 }
-
+.botão-cta:hover{
+    border: #6ec4df;
+}
+.botão-cta:active{
+     box box-shadow: 4px 3px 5px 0px black;
+}
 main{
     border: solid 2px rgb(134, 53, 172);
     max-width: 1200px;
