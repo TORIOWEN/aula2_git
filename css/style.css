@@ -18,8 +18,8 @@ justify-content: space-around;
 } 
 ul{
     display:flex;
-    list-style:nome;
-    gap: 5 spx;
+    list-style: nome;
+    gap: 5 spx; 
 }
 a{
     front-size: 18px;
@@ -30,17 +30,13 @@ a{
     margin:5px;
     border: solid 1px blue;
     border-radius: 10px 30px 10px 30px;
-    box shadow: 4px 3px 5px 0px red:
-   
-
-
-
+    box-shadow: 4px 3px 5px 0px red:
 }
 .botão-cta:hover{
     border: #6ec4df;
 }
 .botão-cta:active{
-     box box-shadow: 4px 3px 5px 0px black;
+      box-shadow: 4px 3px 5px 0px black;
 }
 main{
     border: solid 2px rgb(134, 53, 172);
@@ -84,4 +80,8 @@ section{
 #botao-cancelar{
     width: 300px;
     background-color: rgb(54, 31, 53);
+    background-color: red;
+}
+.logo{
+    width: 80px;
 }
