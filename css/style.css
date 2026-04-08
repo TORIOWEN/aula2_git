@@ -18,11 +18,11 @@ justify-content: space-around;
 } 
 ul{
     display:flex;
-    list-style: nome;
-    gap: 5 spx; 
+    list-style: none;
+    gap: 5px; 
 }
 a{
-    front-size: 18px;
+    font-size: 18px;
     text-decoration:none;
 }
 .botao-cta{
@@ -52,16 +52,23 @@ section{
 .container-cards{
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
-}
+    /*         três colunas com pixels 
+    grid-template-columns: 200px 800px 300px;
+                três colunas com frações com espaçamento 
+    grid-template-columns:1fr 2fr 1fr; 
+
+    grid template-columns: repeat(2, 1fr);
+     */
+    
+    grid-template-columns: repeat(auto-fill, minmax(250px,1fr))
+    grid-gap: 20px;
+    justify-items:center;
+} 
 .card{
-    margin: 10px;
+
     padding: 20px;
     border: solid 2px rgb(134, 53, 172);
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 245, 252);
     width: 250px;
     height: auto;
 }
